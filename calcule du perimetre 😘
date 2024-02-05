@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int longeur;
+    int largeur;
+
+    //valeur de la longeur et de la largeur
+    cout <<"la longeur "<<endl;
+    cout <<"********** "<<endl;
+    cin>>longeur;
+    cout <<"la largeur "<<endl;
+    cout <<"********** "<<endl;
+    cin>>largeur;
+
+    //calcule du perimetre
+    int perimetre;
+    cout <<"perimetre est egal à : "<<longeur * largeur <<endl;
+
+}
